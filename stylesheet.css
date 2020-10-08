@@ -1,0 +1,28 @@
+body{
+  background:#efefef;
+}
+
+.btn1{
+  width:200px;
+  height:200px;
+  background:#ef454a;
+  border-radius:50%;/*対象オブジェクトを丸くする*/
+  margin:30px auto;
+  text-align:center;/*文字が横方向の真ん中になる*/
+  line-height:200px;/*文字の高さが対象オブジェクトの真ん中になる*/
+  color:white;
+  font-weight:bold;
+  font-size:42px;
+  cursor:pointer;
+  box-shadow:0 10px  #d1483e;
+  user-select: none;
+}
+
+.btn1:hover{
+  opacity:0.9;
+}
+
+.btn1:active{
+  box-shadow:0 5px #d1483e;
+  margin-top:35px
+}
